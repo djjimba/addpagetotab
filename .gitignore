@@ -1,0 +1,7 @@
+*.bbprojectd
+.DS_Store
+*.esproj
+*.esproj/
+*.esproj/*
++*.esproj
+
