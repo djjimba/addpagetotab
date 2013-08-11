@@ -1,18 +1,5 @@
-{
-  "manifest_version": 2,
-  "name": "Add page to tab",
-  "version": "1.1",
-  "permissions": [
-    "tabs", "http://*/*", "https://*/*"
-  ],
-  "description": "Facebook Add Page To Tab",
-  "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
-  },
-  "content_scripts": [ {
-      "css": [ "addpagetotab.css" ],
-      "js": [ "jquery.js", "addpagetotab.js" ],
-      "matches": [ "https://developers.facebook.com/apps/*" ]
-  } ]
+
+.add_page_tab_link a {
+  font-weight: bold;
+  color: red;
 }
